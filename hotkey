@@ -46,8 +46,10 @@ Shift + Button -> upper character
 - i                 # insertion mode
 - I                 # insertion mode with arrow jump to first 
 
-- a                 # insertion mode
+- a                 # insertion mode (append, start from end of line)
 - A                 # insertion mode with arrow jump to end
+
+- o                 # insertion mode (newline, start from next line)
 
 ### File
 $ dos2unix FILENAME   # dos -> unix file
@@ -61,3 +63,6 @@ $ unix2dos FILENAME   # unix -> dos file
 - vsp FILENAME          # split windows in vertical (</>)
 - Ctrl + w + h/j/k/l    # switch between windows
 :q (wq)                 # to close the windows
+
+
+
