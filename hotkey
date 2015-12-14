@@ -1,0 +1,63 @@
+### in Terminal
+- Ctrl + z <-> fg   # switch between jobs
+- Ctrl + w          # to delete a word  
+- Ctrl + u          # to delete a line
+- Ctrl + r          # to find history command (problems!!)
+
+### Keyboard Using 
+        Button -> below character
+Shift + Button -> upper character
+
+
+##### Vim #####
+### Movement 
+- dir               # H(<) J(v) K(^) L(>)
+- W/w               # go foward
+- B/b               # go backwardi
+
+- 3j                # jump down 3 lines
+- Shift + ^ (0)     # jump to start of line
+- Shift + $         # jump to end of line
+- gg                # jump to start of file 
+- Shift + g (G)     # jump to end of file 
+
+### Operation
+- d                 # delete a char (backward) (cut) 
+- dd                # delete a line 
+- 3dd               # delete down 3 lines
+- D                 # delete content after postion of arrow (in line)
+
+- y                 # copy 
+- yy                # copy a line
+- 3yy               # copy down 3 lines
+
+- p                 # paste on
+- 4p                # paste on 4 times
+
+- u                 # undo
+- Ctrl + r          # undo the undo
+
+### Search 
+- /                 # search target 
+- n                 # next result 
+- N                 # previous result 
+
+### Mode
+- i                 # insertion mode
+- I                 # insertion mode with arrow jump to first 
+
+- a                 # insertion mode
+- A                 # insertion mode with arrow jump to end
+
+### File
+$ dos2unix FILENAME   # dos -> unix file
+$ unix2dos FILENAME   # unix -> dos file
+
+:set nowrap           # no wrap in vim
+:set hlsearch         # highlight search result
+
+### Windows
+- sp FILENAME           # split windows in horizonal (^/v)           
+- vsp FILENAME          # split windows in vertical (</>)
+- Ctrl + w + h/j/k/l    # switch between windows
+:q (wq)                 # to close the windows
