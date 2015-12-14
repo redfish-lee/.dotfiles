@@ -12,8 +12,8 @@ Shift + Button -> upper character
 ##### Vim #####
 ### Movement 
 - dir               # H(<) J(v) K(^) L(>)
-- W/w               # go foward
-- B/b               # go backwardi
+- W/w               # go foward a word
+- B/b               # go backward a word 
 
 - 3j                # jump down 3 lines
 - Shift + ^ (0)     # jump to start of line
@@ -43,13 +43,16 @@ Shift + Button -> upper character
 - N                 # previous result 
 
 ### Mode
-- i                 # insertion mode
-- I                 # insertion mode with arrow jump to first 
+- Ctrl + [          # same as btn ESC
+
+- i                 # insert
+- I                 # move to first of line and insert
 
 - a                 # insertion mode (append, start from end of line)
-- A                 # insertion mode with arrow jump to end
+- A                 # move to end of line and insert
 
-- o                 # insertion mode (newline, start from next line)
+- o                 # insert newline above and insert
+- O                 # insert newline below and insert
 
 ### File
 $ dos2unix FILENAME   # dos -> unix file
@@ -62,7 +65,26 @@ $ unix2dos FILENAME   # unix -> dos file
 - sp FILENAME           # split windows in horizonal (^/v)           
 - vsp FILENAME          # split windows in vertical (</>)
 - Ctrl + w + h/j/k/l    # switch between windows
+- Ctrl + E              # scroll the window down
+- Ctrl + Y              # scroll the window up
+
 :q (wq)                 # to close the windows
+:earlier 2m             # go to file 2 minutes ago
+
+### Special combination
+- caw                   # change all word)
+- diw                   # delete in word)
+- yi)                   # yank in ()
+- di[                   # delete in []
+
+- va"                   # in VISUAL mode, 
+                        # select all comtent inside " "
+
+- .(dot)                # do the last motion to the current line 
+
+
+
+
 
 
 
