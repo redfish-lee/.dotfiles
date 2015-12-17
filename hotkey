@@ -90,7 +90,11 @@ Shift + Button -> upper character
 - .(dot)                # do the last motion to the current line 
 
 
-
+### Bundle 
+:BundleUpdate
+:BundleClean
+:BundleList
+:BundleSearch
 
 
 
