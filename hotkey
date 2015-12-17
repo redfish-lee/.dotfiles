@@ -62,6 +62,8 @@ Shift + Button -> upper character
 - o                 # insert newline above and insert
 - O                 # insert newline below and insert
 
+-Ctrl + N           # auto-complete
+
 ### VISUAL Mode
 - Shift + V         # visual a line  (and use hjkl to select more)
 - Ctrl  + V         # visual a block (and use hjkl to select more)
