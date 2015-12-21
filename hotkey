@@ -96,6 +96,11 @@ Shift + Button -> upper character
 
 - .(dot)                # do the last motion to the current line 
 
+### add // to specific code blocks
+1. Ctrl+V               # to select the first column of text in the lines you want to comment.
+2. Shift+i              # type the text you want to insert.
+3. Esc                  # wait 1 second and the inserted text will appear on every line.
+** we can also use .(dot) to repeat the operation before esc
 
 ### Bundle 
 :PluginUpdate
