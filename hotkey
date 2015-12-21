@@ -64,6 +64,13 @@ Shift + Button -> upper character
 
 -Ctrl + N           # auto-complete
 
+### Indent >
+- 5>>               # To indent 5 lines  
+- Vjj>              # To mark a block of lines and indent
+- >%                # To indent a curly-braces block
+                    # put cursor on one of the curly braces and use 
+- ]p                # copying blocks of text around and need to align the indent of a block in its new location
+
 ### VISUAL Mode
 - Shift + V         # visual a line  (and use hjkl to select more)
 - Ctrl  + V         # visual a block (and use hjkl to select more)
@@ -91,10 +98,10 @@ Shift + Button -> upper character
 
 
 ### Bundle 
-:BundleUpdate
-:BundleClean
-:BundleList
-:BundleSearch
+:PluginUpdate
+:PluginClean
+:PluginList
+:PluginSearch
 
 
 
