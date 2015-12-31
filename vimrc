@@ -36,9 +36,13 @@ inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap { {}<LEFT>
 inoremap " ""<LEFT>
-""inoremap ' ''<LEFT>
+inoremap ' ''<LEFT>
+inoremap /. /*  */<LEFT><LEFT>
+
+set pastetoggle=<F12>
 
 "jump to last edited
+
 if has("autocmd")
     au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
