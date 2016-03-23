@@ -1,4 +1,4 @@
-### in Terminal
+## Terminal
 $ Ctrl + z <-> fg     # switch between jobs
 $ Ctrl + w            # to delete a word  
 $ Ctrl + u            # to delete a line
@@ -107,7 +107,3 @@ Shift + Button -> upper character
 :PluginClean
 :PluginList
 :PluginSearch
-
-
-
-
