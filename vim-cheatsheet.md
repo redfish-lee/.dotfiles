@@ -32,6 +32,9 @@ $ unix2dos FILENAME   # unix -> dos file
 - `u`               undo
 - `Ctrl` + `r`      undo the undo
 
+- `d` + `b`         delete current to previous blank word
+- `d` + `w`         delete current to next word  
+
 ### Search 
 - `/`               search target 
 - `n`               next result 
