@@ -1,0 +1,12 @@
+## This file should rename before use.
+## replace .ssh/config
+
+Host *
+ AddKeysToAgent yes
+ UseKeychain yes
+ IdentityFile ~/.ssh/id_rsa
+
+Host deep
+    HostName 127.0.0.1
+    Port 22
+    User redfish
