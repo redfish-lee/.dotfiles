@@ -1,0 +1,20 @@
+CC			:= gcc
+CXX			:= g++
+
+MPICC			:= mpicc
+MPICXX			:= mpicxx
+
+CCFLAGS			:= -O3 -march=native -Wall -std=gnu11
+CXXFLAGS		:= -O3 -march=native -Wall -std=c++11
+LDFLAGS			:= -lm -lpthread -fopenmp -lboost_iostreams
+
+all: seq sync asyn
+
+seq: SSSP_seq.cc
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $@ $?
+sync: MPI_sync.cc
+	$(MPICXX) $(CXXFLAGS) $(LDFLAGS) -o $@ $?
+asyn: MPI_asyn.cc
+	$(MPICXX) $(CXXFLAGS) $(LDFLAGS) -o $@ $?
+clean:
+	rm -f seq sync asyn
