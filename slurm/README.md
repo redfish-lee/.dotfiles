@@ -78,7 +78,7 @@ PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
 debug*       up      15:00      2   idle ivsdeep[3,5]
 ```
 
-#### Troubleshoot
+#### Troubleshooting
 - Fix down state of node
 ```bash
 user@ivsdeep5:/var/log/slurm-llnl$ sinfo
