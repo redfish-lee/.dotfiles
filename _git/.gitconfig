@@ -1,0 +1,5 @@
+[user]
+	name = redfish leo
+	email = redfish.tbc@gmail.com
+[branch]  
+  autosetuprebase = always
